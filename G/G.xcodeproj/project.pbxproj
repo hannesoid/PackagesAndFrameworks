@@ -3,17 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D1A1974D248A2F3F0019EAD8 /* G.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A1974B248A2F3F0019EAD8 /* G.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A19759248A2FE40019EAD8 /* F.framework */; };
+		D1A1975C248A30000019EAD8 /* B in Frameworks */ = {isa = PBXBuildFile; productRef = D1A1975B248A30000019EAD8 /* B */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1A19748248A2F3F0019EAD8 /* G.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = G.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A1974B248A2F3F0019EAD8 /* G.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G.h; sourceTree = "<group>"; };
 		D1A1974C248A2F3F0019EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A19759248A2FE40019EAD8 /* F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +24,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */,
+				D1A1975C248A30000019EAD8 /* B in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +37,7 @@
 			children = (
 				D1A1974A248A2F3F0019EAD8 /* G */,
 				D1A19749248A2F3F0019EAD8 /* Products */,
+				D1A19758248A2FE40019EAD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +56,14 @@
 				D1A1974C248A2F3F0019EAD8 /* Info.plist */,
 			);
 			path = G;
+			sourceTree = "<group>";
+		};
+		D1A19758248A2FE40019EAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A19759248A2FE40019EAD8 /* F.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +94,9 @@
 			dependencies = (
 			);
 			name = G;
+			packageProductDependencies = (
+				D1A1975B248A30000019EAD8 /* B */,
+			);
 			productName = G;
 			productReference = D1A19748248A2F3F0019EAD8 /* G.framework */;
 			productType = "com.apple.product-type.framework";
@@ -327,6 +344,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1A1975B248A30000019EAD8 /* B */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = B;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1A1973F248A2F3F0019EAD8 /* Project object */;
 }

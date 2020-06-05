@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D1A19738248A2F190019EAD8 /* F.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A19736248A2F190019EAD8 /* F.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A19757248A2FD20019EAD8 /* A in Frameworks */ = {isa = PBXBuildFile; productRef = D1A19756248A2FD20019EAD8 /* A */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A19757248A2FD20019EAD8 /* A in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +34,7 @@
 			children = (
 				D1A19735248A2F190019EAD8 /* F */,
 				D1A19734248A2F190019EAD8 /* Products */,
+				D1A19753248A2FC30019EAD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +53,13 @@
 				D1A19737248A2F190019EAD8 /* Info.plist */,
 			);
 			path = F;
+			sourceTree = "<group>";
+		};
+		D1A19753248A2FC30019EAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +90,9 @@
 			dependencies = (
 			);
 			name = F;
+			packageProductDependencies = (
+				D1A19756248A2FD20019EAD8 /* A */,
+			);
 			productName = F;
 			productReference = D1A19733248A2F190019EAD8 /* F.framework */;
 			productType = "com.apple.product-type.framework";
@@ -327,6 +340,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1A19756248A2FD20019EAD8 /* A */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = A;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1A1972A248A2F190019EAD8 /* Project object */;
 }
