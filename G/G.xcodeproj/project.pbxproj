@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D15F7D75248A32640024E54D /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D74248A32640024E54D /* G.swift */; };
+		D15F7D79248A33230024E54D /* C in Frameworks */ = {isa = PBXBuildFile; productRef = D15F7D78248A33230024E54D /* C */; };
 		D1A1974D248A2F3F0019EAD8 /* G.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A1974B248A2F3F0019EAD8 /* G.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A19759248A2FE40019EAD8 /* F.framework */; };
-		D1A1975C248A30000019EAD8 /* B in Frameworks */ = {isa = PBXBuildFile; productRef = D1A1975B248A30000019EAD8 /* B */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15F7D79248A33230024E54D /* C in Frameworks */,
 				D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */,
-				D1A1975C248A30000019EAD8 /* B in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			);
 			name = G;
 			packageProductDependencies = (
-				D1A1975B248A30000019EAD8 /* B */,
+				D15F7D78248A33230024E54D /* C */,
 			);
 			productName = G;
 			productReference = D1A19748248A2F3F0019EAD8 /* G.framework */;
@@ -354,9 +354,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D1A1975B248A30000019EAD8 /* B */ = {
+		D15F7D78248A33230024E54D /* C */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = B;
+			productName = C;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

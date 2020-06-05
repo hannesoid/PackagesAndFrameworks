@@ -11,6 +11,9 @@
       location = "group:B">
    </FileRef>
    <FileRef
+      location = "group:C">
+   </FileRef>
+   <FileRef
       location = "group:G/G.xcodeproj">
    </FileRef>
    <FileRef
