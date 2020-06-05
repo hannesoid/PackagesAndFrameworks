@@ -7,7 +7,15 @@
 //
 
 import Foundation
+import A
+import B
+import C
+import F
 
 public struct G {
     public static var text = "Hello World"
+    public static var textA: String { A.text }
+    public static var textB: String { B.text }
+    public static var textC: String { C.text }
+    public static var textF: String { FStruct.text }
 }

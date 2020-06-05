@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D15F7D7B248A33960024E54D /* FStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D7A248A33960024E54D /* FStruct.swift */; };
 		D1A19738248A2F190019EAD8 /* F.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A19736248A2F190019EAD8 /* F.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1A19757248A2FD20019EAD8 /* A in Frameworks */ = {isa = PBXBuildFile; productRef = D1A19756248A2FD20019EAD8 /* A */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D15F7D7A248A33960024E54D /* FStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FStruct.swift; sourceTree = "<group>"; };
 		D1A19733248A2F190019EAD8 /* F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A19736248A2F190019EAD8 /* F.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F.h; sourceTree = "<group>"; };
 		D1A19737248A2F190019EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			children = (
 				D1A19736248A2F190019EAD8 /* F.h */,
 				D1A19737248A2F190019EAD8 /* Info.plist */,
+				D15F7D7A248A33960024E54D /* FStruct.swift */,
 			);
 			path = F;
 			sourceTree = "<group>";
@@ -108,6 +111,7 @@
 				TargetAttributes = {
 					D1A19732248A2F190019EAD8 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -144,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15F7D7B248A33960024E54D /* FStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +278,7 @@
 		D1A1973C248A2F190019EAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DTJ8KR7BUK;
@@ -289,6 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.F;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +304,7 @@
 		D1A1973D248A2F190019EAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DTJ8KR7BUK;

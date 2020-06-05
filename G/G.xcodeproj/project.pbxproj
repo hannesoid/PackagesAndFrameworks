@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		D15F7D75248A32640024E54D /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D74248A32640024E54D /* G.swift */; };
 		D15F7D79248A33230024E54D /* C in Frameworks */ = {isa = PBXBuildFile; productRef = D15F7D78248A33230024E54D /* C */; };
+		D15F7DA5248A47D30024E54D /* GObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D15F7DA3248A47D30024E54D /* GObjC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D15F7DA6248A47D30024E54D /* GObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F7DA4248A47D30024E54D /* GObjC.m */; };
 		D1A1974D248A2F3F0019EAD8 /* G.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A1974B248A2F3F0019EAD8 /* G.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A19759248A2FE40019EAD8 /* F.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D15F7D74248A32640024E54D /* G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G.swift; sourceTree = "<group>"; };
+		D15F7DA2248A47550024E54D /* G.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = G.modulemap; sourceTree = "<group>"; };
+		D15F7DA3248A47D30024E54D /* GObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GObjC.h; sourceTree = "<group>"; };
+		D15F7DA4248A47D30024E54D /* GObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GObjC.m; sourceTree = "<group>"; };
 		D1A19748248A2F3F0019EAD8 /* G.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = G.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A1974B248A2F3F0019EAD8 /* G.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G.h; sourceTree = "<group>"; };
 		D1A1974C248A2F3F0019EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,9 +59,12 @@
 		D1A1974A248A2F3F0019EAD8 /* G */ = {
 			isa = PBXGroup;
 			children = (
+				D15F7DA2248A47550024E54D /* G.modulemap */,
 				D1A1974B248A2F3F0019EAD8 /* G.h */,
 				D1A1974C248A2F3F0019EAD8 /* Info.plist */,
 				D15F7D74248A32640024E54D /* G.swift */,
+				D15F7DA3248A47D30024E54D /* GObjC.h */,
+				D15F7DA4248A47D30024E54D /* GObjC.m */,
 			);
 			path = G;
 			sourceTree = "<group>";
@@ -76,6 +84,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15F7DA5248A47D30024E54D /* GObjC.h in Headers */,
 				D1A1974D248A2F3F0019EAD8 /* G.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15F7D75248A32640024E54D /* G.swift in Sources */,
+				D15F7DA6248A47D30024E54D /* GObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +306,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = G/G.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.G;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -322,6 +333,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = G/G.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.G;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

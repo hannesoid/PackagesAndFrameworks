@@ -22,6 +22,7 @@
 		D15F7D71248A320A0024E54D /* H.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6C248A320A0024E54D /* H.framework */; };
 		D15F7D72248A320A0024E54D /* H.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6C248A320A0024E54D /* H.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D15F7D77248A32970024E54D /* J.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D76248A32970024E54D /* J.swift */; };
+		D15F7D81248A37250024E54D /* JObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D80248A37250024E54D /* JObjC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,9 @@
 		D15F7D6B248A320A0024E54D /* G.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = G.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15F7D6C248A320A0024E54D /* H.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = H.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15F7D76248A32970024E54D /* J.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J.swift; sourceTree = "<group>"; };
+		D15F7D7E248A37250024E54D /* J-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "J-Bridging-Header.h"; sourceTree = "<group>"; };
+		D15F7D7F248A37250024E54D /* JObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JObjC.h; sourceTree = "<group>"; };
+		D15F7D80248A37250024E54D /* JObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JObjC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,9 @@
 				D15F7D5B248A31EA0024E54D /* LaunchScreen.storyboard */,
 				D15F7D5E248A31EA0024E54D /* Info.plist */,
 				D15F7D58248A31EA0024E54D /* Preview Content */,
+				D15F7D7F248A37250024E54D /* JObjC.h */,
+				D15F7D80248A37250024E54D /* JObjC.m */,
+				D15F7D7E248A37250024E54D /* J-Bridging-Header.h */,
 			);
 			path = J;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 				TargetAttributes = {
 					D15F7D4C248A31E90024E54D = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -197,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15F7D77248A32970024E54D /* J.swift in Sources */,
+				D15F7D81248A37250024E54D /* JObjC.m in Sources */,
 				D15F7D51248A31E90024E54D /* AppDelegate.swift in Sources */,
 				D15F7D53248A31E90024E54D /* SceneDelegate.swift in Sources */,
 				D15F7D55248A31E90024E54D /* ContentView.swift in Sources */,
@@ -335,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"J/Preview Content\"";
 				DEVELOPMENT_TEAM = DTJ8KR7BUK;
@@ -346,6 +356,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.J;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "J/J-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"J/Preview Content\"";
 				DEVELOPMENT_TEAM = DTJ8KR7BUK;
@@ -366,6 +379,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.J;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "J/J-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

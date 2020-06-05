@@ -14,4 +14,5 @@ import G
 
 public struct H {
     public static var text = "Hello World"
+    public static var gText: String { GObjC.text() }
 }

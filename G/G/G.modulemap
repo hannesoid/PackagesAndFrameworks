@@ -1,0 +1,7 @@
+framework module G {
+    
+    // Have to define the umbrella header
+    umbrella header "G.h"
+
+    header "GObjC.h"
+}
