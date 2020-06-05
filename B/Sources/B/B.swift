@@ -1,3 +1,3 @@
-struct B {
-    var text = "Hello, World!"
+public struct B {
+    public static var text = "Hello, World!"
 }

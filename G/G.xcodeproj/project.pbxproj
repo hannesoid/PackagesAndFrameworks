@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D15F7D75248A32640024E54D /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D74248A32640024E54D /* G.swift */; };
 		D1A1974D248A2F3F0019EAD8 /* G.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A1974B248A2F3F0019EAD8 /* G.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A19759248A2FE40019EAD8 /* F.framework */; };
 		D1A1975C248A30000019EAD8 /* B in Frameworks */ = {isa = PBXBuildFile; productRef = D1A1975B248A30000019EAD8 /* B */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D15F7D74248A32640024E54D /* G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G.swift; sourceTree = "<group>"; };
 		D1A19748248A2F3F0019EAD8 /* G.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = G.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A1974B248A2F3F0019EAD8 /* G.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G.h; sourceTree = "<group>"; };
 		D1A1974C248A2F3F0019EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				D1A1974B248A2F3F0019EAD8 /* G.h */,
 				D1A1974C248A2F3F0019EAD8 /* Info.plist */,
+				D15F7D74248A32640024E54D /* G.swift */,
 			);
 			path = G;
 			sourceTree = "<group>";
@@ -112,6 +115,7 @@
 				TargetAttributes = {
 					D1A19747248A2F3F0019EAD8 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -148,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15F7D75248A32640024E54D /* G.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +282,7 @@
 		D1A19751248A2F3F0019EAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DTJ8KR7BUK;
@@ -293,6 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.G;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +308,7 @@
 		D1A19752248A2F3F0019EAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DTJ8KR7BUK;

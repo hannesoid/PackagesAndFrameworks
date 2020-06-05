@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,33 @@
 		D15F7D57248A31EA0024E54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7D56248A31EA0024E54D /* Assets.xcassets */; };
 		D15F7D5A248A31EA0024E54D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7D59248A31EA0024E54D /* Preview Assets.xcassets */; };
 		D15F7D5D248A31EA0024E54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15F7D5B248A31EA0024E54D /* LaunchScreen.storyboard */; };
+		D15F7D66248A320A0024E54D /* A in Frameworks */ = {isa = PBXBuildFile; productRef = D15F7D65248A320A0024E54D /* A */; };
+		D15F7D67248A320A0024E54D /* A in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D15F7D65248A320A0024E54D /* A */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D15F7D6D248A320A0024E54D /* F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6A248A320A0024E54D /* F.framework */; };
+		D15F7D6E248A320A0024E54D /* F.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6A248A320A0024E54D /* F.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D15F7D6F248A320A0024E54D /* G.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6B248A320A0024E54D /* G.framework */; };
+		D15F7D70248A320A0024E54D /* G.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6B248A320A0024E54D /* G.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D15F7D71248A320A0024E54D /* H.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6C248A320A0024E54D /* H.framework */; };
+		D15F7D72248A320A0024E54D /* H.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6C248A320A0024E54D /* H.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D15F7D77248A32970024E54D /* J.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D76248A32970024E54D /* J.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D15F7D73248A320A0024E54D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D15F7D67248A320A0024E54D /* A in Embed Frameworks */,
+				D15F7D70248A320A0024E54D /* G.framework in Embed Frameworks */,
+				D15F7D6E248A320A0024E54D /* F.framework in Embed Frameworks */,
+				D15F7D72248A320A0024E54D /* H.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D15F7D4D248A31E90024E54D /* J.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = J.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +50,10 @@
 		D15F7D59248A31EA0024E54D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D15F7D5C248A31EA0024E54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D15F7D5E248A31EA0024E54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15F7D6A248A320A0024E54D /* F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15F7D6B248A320A0024E54D /* G.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = G.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15F7D6C248A320A0024E54D /* H.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = H.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15F7D76248A32970024E54D /* J.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15F7D6D248A320A0024E54D /* F.framework in Frameworks */,
+				D15F7D66248A320A0024E54D /* A in Frameworks */,
+				D15F7D71248A320A0024E54D /* H.framework in Frameworks */,
+				D15F7D6F248A320A0024E54D /* G.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,7 @@
 			children = (
 				D15F7D4F248A31E90024E54D /* J */,
 				D15F7D4E248A31E90024E54D /* Products */,
+				D15F7D64248A320A0024E54D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +91,7 @@
 		D15F7D4F248A31E90024E54D /* J */ = {
 			isa = PBXGroup;
 			children = (
+				D15F7D76248A32970024E54D /* J.swift */,
 				D15F7D50248A31E90024E54D /* AppDelegate.swift */,
 				D15F7D52248A31E90024E54D /* SceneDelegate.swift */,
 				D15F7D54248A31E90024E54D /* ContentView.swift */,
@@ -75,6 +111,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D15F7D64248A320A0024E54D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D15F7D6A248A320A0024E54D /* F.framework */,
+				D15F7D6B248A320A0024E54D /* G.framework */,
+				D15F7D6C248A320A0024E54D /* H.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,12 +131,16 @@
 				D15F7D49248A31E90024E54D /* Sources */,
 				D15F7D4A248A31E90024E54D /* Frameworks */,
 				D15F7D4B248A31E90024E54D /* Resources */,
+				D15F7D73248A320A0024E54D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = J;
+			packageProductDependencies = (
+				D15F7D65248A320A0024E54D /* A */,
+			);
 			productName = J;
 			productReference = D15F7D4D248A31E90024E54D /* J.app */;
 			productType = "com.apple.product-type.application";
@@ -146,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15F7D77248A32970024E54D /* J.swift in Sources */,
 				D15F7D51248A31E90024E54D /* AppDelegate.swift in Sources */,
 				D15F7D53248A31E90024E54D /* SceneDelegate.swift in Sources */,
 				D15F7D55248A31E90024E54D /* ContentView.swift in Sources */,
@@ -342,6 +393,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D15F7D65248A320A0024E54D /* A */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = A;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D15F7D45248A31E90024E54D /* Project object */;
 }

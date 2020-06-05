@@ -9,23 +9,8 @@
 /* Begin PBXBuildFile section */
 		D1A1976D248A30610019EAD8 /* H.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A1976B248A30610019EAD8 /* H.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1A19775248A30800019EAD8 /* G.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A19774248A30800019EAD8 /* G.framework */; };
-		D1A19776248A30800019EAD8 /* G.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1A19774248A30800019EAD8 /* G.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D1A19779248A30C20019EAD8 /* H.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A19778248A30C20019EAD8 /* H.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D1A19777248A30800019EAD8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D1A19776248A30800019EAD8 /* G.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D1A19768248A30610019EAD8 /* H.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = H.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +89,6 @@
 				D1A19764248A30610019EAD8 /* Sources */,
 				D1A19765248A30610019EAD8 /* Frameworks */,
 				D1A19766248A30610019EAD8 /* Resources */,
-				D1A19777248A30800019EAD8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
