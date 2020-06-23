@@ -12,7 +12,7 @@
 @implementation JObjC
 
 + (NSString *)text {
-    return AObjC.text;
+    return AClass.text;
 }
 
 @end
