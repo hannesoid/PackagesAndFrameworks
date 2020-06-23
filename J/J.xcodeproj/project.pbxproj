@@ -18,7 +18,6 @@
 		D15F7D6F248A320A0024E54D /* G.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6B248A320A0024E54D /* G.framework */; };
 		D15F7D70248A320A0024E54D /* G.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6B248A320A0024E54D /* G.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D15F7D77248A32970024E54D /* J.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D76248A32970024E54D /* J.swift */; };
-		D15F7D81248A37250024E54D /* JObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D80248A37250024E54D /* JObjC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,8 +49,6 @@
 		D15F7D6C248A320A0024E54D /* H.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = H.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15F7D76248A32970024E54D /* J.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J.swift; sourceTree = "<group>"; };
 		D15F7D7E248A37250024E54D /* J-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "J-Bridging-Header.h"; sourceTree = "<group>"; };
-		D15F7D7F248A37250024E54D /* JObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JObjC.h; sourceTree = "<group>"; };
-		D15F7D80248A37250024E54D /* JObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JObjC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +92,6 @@
 				D15F7D5B248A31EA0024E54D /* LaunchScreen.storyboard */,
 				D15F7D5E248A31EA0024E54D /* Info.plist */,
 				D15F7D58248A31EA0024E54D /* Preview Content */,
-				D15F7D7F248A37250024E54D /* JObjC.h */,
-				D15F7D80248A37250024E54D /* JObjC.m */,
 				D15F7D7E248A37250024E54D /* J-Bridging-Header.h */,
 			);
 			path = J;
@@ -197,7 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15F7D77248A32970024E54D /* J.swift in Sources */,
-				D15F7D81248A37250024E54D /* JObjC.m in Sources */,
 				D15F7D51248A31E90024E54D /* AppDelegate.swift in Sources */,
 				D15F7D53248A31E90024E54D /* SceneDelegate.swift in Sources */,
 				D15F7D55248A31E90024E54D /* ContentView.swift in Sources */,

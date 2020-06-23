@@ -10,22 +10,8 @@ import Foundation
 import A
 
 
-// Class which is exposed to @objc and uses various A types
-@objcMembers
-public class GObjcClass: NSObject {
+public class GClass {
 
-    // works because AObjc is forward declared with @class in G-Swift.h
-    public func aClassWorks(_ obj: AObjC) {
-        print("works")
-    }
-
-    // works because AObjc is forward declared with @protocol in G-Swift.h
-    public func aProtocolWorks(_ prot: AProtObjc) {
-        print(prot.text)
-    }
-
-    // doesn't work because enum cannot be forward declared in G-Swift.h -> changes forward declarations into @import A;
-    public func aEnumDoesntWork(_ enum: AEnumObjc) {
-        print("no work")
-    }
+    public static let aText: String = A.aText
+    public static let gText: String = "Hello from G"
 }

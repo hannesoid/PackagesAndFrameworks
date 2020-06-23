@@ -10,7 +10,8 @@ import Foundation
 import G
 
 public struct J {
-    public static var text = "Hello World"
+    public static var aText = GClass.aText
+    public static var gText = GClass.gText
+    public static var jText = "Hello from J"
 
-    public static var textG = GObjC.text
 }
