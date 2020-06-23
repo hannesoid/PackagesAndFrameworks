@@ -1,21 +1,21 @@
 import Foundation;
 
-public struct A {
+public struct AStruct {
     public static var text = "Hello, World!"
 }
 
 @objc
-public class AObjC: NSObject {
+public class AClass: NSObject {
     @objc public static var text = "Hello, World!"
 }
 
 @objc
-public protocol AProtObjc: AnyObject {
+public protocol AProtocol: AnyObject {
     var text: String { get }
 }
 
 @objc
-public enum AEnumObjc: Int {
+public enum AEnum: Int {
     case A
     case B
     case C

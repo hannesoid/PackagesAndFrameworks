@@ -15,17 +15,17 @@ import A
 public class GObjcClass: NSObject {
 
     // works because AObjc is forward declared with @class in G-Swift.h
-    public func aClassWorks(_ obj: AObjC) {
+    public func gConsumeAClass(_ obj: AClass) {
         print("works")
     }
 
     // works because AObjc is forward declared with @protocol in G-Swift.h
-    public func aProtocolWorks(_ prot: AProtObjc) {
+    public func gConsumeAProtocol(_ prot: AProtocol) {
         print(prot.text)
     }
 
     // doesn't work because enum cannot be forward declared in G-Swift.h -> changes forward declarations into @import A;
-    public func aEnumDoesntWork(_ enum: AEnumObjc) {
+    public func gConsumeAEnum(_ enum: AEnum) {
         print("no work")
     }
 }
