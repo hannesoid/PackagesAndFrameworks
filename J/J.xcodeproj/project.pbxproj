@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8B1141824A1F1F0004764EE /* A in Frameworks */ = {isa = PBXBuildFile; productRef = C8B1141724A1F1F0004764EE /* A */; };
+		C8B1141924A1F1F0004764EE /* A in Embed Frameworks */ = {isa = PBXBuildFile; productRef = C8B1141724A1F1F0004764EE /* A */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D15F7D51248A31E90024E54D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D50248A31E90024E54D /* AppDelegate.swift */; };
 		D15F7D53248A31E90024E54D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D52248A31E90024E54D /* SceneDelegate.swift */; };
 		D15F7D55248A31E90024E54D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D54248A31E90024E54D /* ContentView.swift */; };
 		D15F7D57248A31EA0024E54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7D56248A31EA0024E54D /* Assets.xcassets */; };
 		D15F7D5A248A31EA0024E54D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7D59248A31EA0024E54D /* Preview Assets.xcassets */; };
 		D15F7D5D248A31EA0024E54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15F7D5B248A31EA0024E54D /* LaunchScreen.storyboard */; };
-		D15F7D66248A320A0024E54D /* A in Frameworks */ = {isa = PBXBuildFile; productRef = D15F7D65248A320A0024E54D /* A */; };
-		D15F7D67248A320A0024E54D /* A in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D15F7D65248A320A0024E54D /* A */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D15F7D6D248A320A0024E54D /* F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6A248A320A0024E54D /* F.framework */; };
-		D15F7D6E248A320A0024E54D /* F.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6A248A320A0024E54D /* F.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D15F7D6F248A320A0024E54D /* G.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6B248A320A0024E54D /* G.framework */; };
 		D15F7D70248A320A0024E54D /* G.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6B248A320A0024E54D /* G.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D15F7D71248A320A0024E54D /* H.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6C248A320A0024E54D /* H.framework */; };
-		D15F7D72248A320A0024E54D /* H.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15F7D6C248A320A0024E54D /* H.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D15F7D77248A32970024E54D /* J.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D76248A32970024E54D /* J.swift */; };
 		D15F7D81248A37250024E54D /* JObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D80248A37250024E54D /* JObjC.m */; };
 /* End PBXBuildFile section */
@@ -32,10 +28,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D15F7D67248A320A0024E54D /* A in Embed Frameworks */,
+				C8B1141924A1F1F0004764EE /* A in Embed Frameworks */,
 				D15F7D70248A320A0024E54D /* G.framework in Embed Frameworks */,
-				D15F7D6E248A320A0024E54D /* F.framework in Embed Frameworks */,
-				D15F7D72248A320A0024E54D /* H.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,9 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15F7D6D248A320A0024E54D /* F.framework in Frameworks */,
-				D15F7D66248A320A0024E54D /* A in Frameworks */,
-				D15F7D71248A320A0024E54D /* H.framework in Frameworks */,
+				C8B1141824A1F1F0004764EE /* A in Frameworks */,
 				D15F7D6F248A320A0024E54D /* G.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +138,7 @@
 			);
 			name = J;
 			packageProductDependencies = (
-				D15F7D65248A320A0024E54D /* A */,
+				C8B1141724A1F1F0004764EE /* A */,
 			);
 			productName = J;
 			productReference = D15F7D4D248A31E90024E54D /* J.app */;
@@ -409,7 +401,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D15F7D65248A320A0024E54D /* A */ = {
+		C8B1141724A1F1F0004764EE /* A */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = A;
 		};

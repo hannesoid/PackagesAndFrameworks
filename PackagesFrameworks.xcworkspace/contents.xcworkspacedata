@@ -5,19 +5,7 @@
       location = "group:A">
    </FileRef>
    <FileRef
-      location = "group:F/F.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:B">
-   </FileRef>
-   <FileRef
-      location = "group:C">
-   </FileRef>
-   <FileRef
       location = "group:G/G.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:H/H.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:J/J.xcodeproj">

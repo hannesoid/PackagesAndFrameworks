@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8B1141424A1F163004764EE /* A in Frameworks */ = {isa = PBXBuildFile; productRef = C8B1141324A1F163004764EE /* A */; };
+		C8B1141524A1F163004764EE /* A in Embed Frameworks */ = {isa = PBXBuildFile; productRef = C8B1141324A1F163004764EE /* A */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D15F7D75248A32640024E54D /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7D74248A32640024E54D /* G.swift */; };
-		D15F7D79248A33230024E54D /* C in Frameworks */ = {isa = PBXBuildFile; productRef = D15F7D78248A33230024E54D /* C */; };
 		D15F7DA5248A47D30024E54D /* GObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D15F7DA3248A47D30024E54D /* GObjC.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D15F7DA6248A47D30024E54D /* GObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F7DA4248A47D30024E54D /* GObjC.m */; };
 		D1A1974D248A2F3F0019EAD8 /* G.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A1974B248A2F3F0019EAD8 /* G.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A19759248A2FE40019EAD8 /* F.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8B1141624A1F163004764EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C8B1141524A1F163004764EE /* A in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D15F7D74248A32640024E54D /* G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G.swift; sourceTree = "<group>"; };
@@ -31,8 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15F7D79248A33230024E54D /* C in Frameworks */,
-				D1A1975A248A2FE40019EAD8 /* F.framework in Frameworks */,
+				C8B1141424A1F163004764EE /* A in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +113,7 @@
 				D1A19744248A2F3F0019EAD8 /* Sources */,
 				D1A19745248A2F3F0019EAD8 /* Frameworks */,
 				D1A19746248A2F3F0019EAD8 /* Resources */,
+				C8B1141624A1F163004764EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -107,7 +121,7 @@
 			);
 			name = G;
 			packageProductDependencies = (
-				D15F7D78248A33230024E54D /* C */,
+				C8B1141324A1F163004764EE /* A */,
 			);
 			productName = G;
 			productReference = D1A19748248A2F3F0019EAD8 /* G.framework */;
@@ -366,9 +380,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D15F7D78248A33230024E54D /* C */ = {
+		C8B1141324A1F163004764EE /* A */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = C;
+			productName = A;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
